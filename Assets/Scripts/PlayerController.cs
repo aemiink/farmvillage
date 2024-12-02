@@ -4,12 +4,9 @@ using TMPro;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] float movementSpeed = 5f;
-    
     float currentSpeed;
-
     [SerializeField] Rigidbody rb;
     Vector3 direction;
-
     [SerializeField] float shiftSpeed = 10f;
     [SerializeField] float jumpForce = 7f;
     [SerializeField] float stamina = 5f;

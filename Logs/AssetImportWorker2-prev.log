@@ -1,0 +1,715 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.29f1 (9fafe5c9db65) revision 10465253'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'tr' Physical Memory: 15557 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/aekka/Documents/GitHub/farmvillage
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50207
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/aekka/Documents/GitHub/farmvillage
+C:/Users/aekka/Documents/GitHub/farmvillage
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20208]  Target information:
+
+Player connection [20208]  * "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 968496788 [EditorId] 968496788 [Version] 1048832 [Id] WindowsEditor(7,aek) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20208] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20208] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.29f1 (9fafe5c9db65)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aekka/Documents/GitHub/farmvillage/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004361 seconds.
+- Loaded All Assemblies, in  0.458 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.416 seconds
+Domain Reload Profiling: 872ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (157ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (157ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (417ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (373ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.798 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 1449ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (145ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (654ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (534ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (434ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3300 unused Assets / (1.3 MB). Loaded Objects now: 3804.
+Memory consumption went from 88.6 MB to 87.3 MB.
+Total: 7.521500 ms (FindLiveObjects: 0.913000 ms CreateObjectMapping: 0.331700 ms MarkObjects: 4.958600 ms  DeleteObjects: 1.312700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72979.692709 seconds.
+  path: Assets/Models/Terrain/cliff_blockCave_rock.fbx
+  artifactKey: Guid(c3cd55f2884b7a34f807e3dd452efd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Terrain/cliff_blockCave_rock.fbx using Guid(c3cd55f2884b7a34f807e3dd452efd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94f17afa61fd56f306b183d8ce4445b4') in 0.3754819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Terrain/cliff_blockQuarter_stone.fbx
+  artifactKey: Guid(be2cd3bb6f1fed7418b8fc4c38e02842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Terrain/cliff_blockQuarter_stone.fbx using Guid(be2cd3bb6f1fed7418b8fc4c38e02842) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fc0b03730de69ed822b85ab500088de') in 0.067636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.779932 seconds.
+  path: Assets/Models/Road
+  artifactKey: Guid(8ff93139dd0058b45aecf756b14e3c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Road using Guid(8ff93139dd0058b45aecf756b14e3c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '941c698d9834a875dd8b824256cb330a') in 0.0007781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.581231 seconds.
+  path: Assets/Models/Road/bridge_pillar.fbx
+  artifactKey: Guid(018bb50e9396d34438c0db7f957a9e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Road/bridge_pillar.fbx using Guid(018bb50e9396d34438c0db7f957a9e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08c70f7833fee989813ff263b16dec6d') in 0.0727295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Models/Road/construction_light.fbx
+  artifactKey: Guid(f20e6fa8f259c8b4599f45c233019c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Road/construction_light.fbx using Guid(f20e6fa8f259c8b4599f45c233019c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57b3fac12c3fa362950cc94907529fa8') in 0.0629943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Road/light_curvedDouble.fbx
+  artifactKey: Guid(ba953b5c4bcbd464f981ea12be4b4018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Road/light_curvedDouble.fbx using Guid(ba953b5c4bcbd464f981ea12be4b4018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bba29044ac093ffbeb38fd6da4219ec6') in 0.0515867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Road/road_curvePavement.fbx
+  artifactKey: Guid(294bb3a1f751f1f4cba173e30241a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Road/road_curvePavement.fbx using Guid(294bb3a1f751f1f4cba173e30241a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aac0f674b1fbfd0f6207f6b337c009ab') in 0.0561683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Road/road_bend.fbx
+  artifactKey: Guid(e27ec4dbe3425324782137c7bd0638c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Road/road_bend.fbx using Guid(e27ec4dbe3425324782137c7bd0638c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '001a57d7796254f17255fb7523da9cd6') in 0.0551265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Road/road_bendBarrier.fbx
+  artifactKey: Guid(4119246d29fe8234fbcb439f761a8f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Road/road_bendBarrier.fbx using Guid(4119246d29fe8234fbcb439f761a8f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77de177bf408553a9e57f0d0fc31924a') in 0.0358945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Road/road_bendSquareBarrier.fbx
+  artifactKey: Guid(16b7badd5d0118f419985d594d9a1b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Road/road_bendSquareBarrier.fbx using Guid(16b7badd5d0118f419985d594d9a1b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd808f2422f4bf85a097168976d3d660') in 0.0378653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Road/road_drivewayDouble.fbx
+  artifactKey: Guid(cdec8a54c353ad643ab841f103dcf090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Road/road_drivewayDouble.fbx using Guid(cdec8a54c353ad643ab841f103dcf090) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fabad09d1a15556aa751e4293f22159') in 0.0597971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Road/road_bridge.fbx
+  artifactKey: Guid(07abeac2e4a102d4ca27476360cd7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Road/road_bridge.fbx using Guid(07abeac2e4a102d4ca27476360cd7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc6af787a5ce3570ece784ef926badc1') in 0.0607966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Road/road_crossroad.fbx
+  artifactKey: Guid(090fd77808984b94aa44ab3ad4f56300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Road/road_crossroad.fbx using Guid(090fd77808984b94aa44ab3ad4f56300) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c4920f62a8e4ad754a34dd9638932ab') in 0.0553523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.237560 seconds.
+  path: Assets/Models/Animals
+  artifactKey: Guid(4512a045a44acac45aacb803740be89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animals using Guid(4512a045a44acac45aacb803740be89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dad48f5818a88a195ac5e2c74929b771') in 0.0009872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071960 seconds.
+  path: Assets/Models/Animals/AllAnimals(notOne1Point).prefab
+  artifactKey: Guid(41c740e1ea1883243a2aedd3365f309e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animals/AllAnimals(notOne1Point).prefab using Guid(41c740e1ea1883243a2aedd3365f309e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '850e78a33305c6a4ba939581961548e8') in 0.7357662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 309
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.545826 seconds.
+  path: Assets/Models/Cars
+  artifactKey: Guid(90d2a211da5a96847bf0e42126ca93e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cars using Guid(90d2a211da5a96847bf0e42126ca93e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9e2a4b48203c0f4fd4e2a8992b221d4') in 0.0068193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 444.586023 seconds.
+  path: Assets/Models/Build in Town/rockLarge.fbx
+  artifactKey: Guid(8aa41de8709541b4d901a967e0936966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/rockLarge.fbx using Guid(8aa41de8709541b4d901a967e0936966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1df24ab2e69f8394e10cb6b54a414dcc') in 0.0756743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Build in Town/rockWide.fbx
+  artifactKey: Guid(a08404d4dc47b4b40860131549903522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/rockWide.fbx using Guid(a08404d4dc47b4b40860131549903522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0293bb8eb80d64989a0a7d97dce0dfa6') in 0.045625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/Build in Town/roofCorner.fbx
+  artifactKey: Guid(a3a317f0b24598b49a31593c70556db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/roofCorner.fbx using Guid(a3a317f0b24598b49a31593c70556db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec623757b15f3dfdb6d668a184a209b1') in 0.0727763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Build in Town/roofCornerInner.fbx
+  artifactKey: Guid(faaf276508e5a2f4eac848fc5ed9837d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/roofCornerInner.fbx using Guid(faaf276508e5a2f4eac848fc5ed9837d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9058caa5a1e73ea1331b7eb7c0fa50ae') in 0.0550956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Models/Build in Town/roof.fbx
+  artifactKey: Guid(7d6a46388fc128d4fa41fba75a6e8617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/roof.fbx using Guid(7d6a46388fc128d4fa41fba75a6e8617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1394af0a39bf9dfedd5ce7d007da0448') in 0.057974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.827366 seconds.
+  path: Assets/Models/Build in Town/roofGableEnd.fbx
+  artifactKey: Guid(4fc66c43536800d46aabe9309a35c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/roofGableEnd.fbx using Guid(4fc66c43536800d46aabe9309a35c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '731f407ec03142a14d018ba16802c7ca') in 0.0701213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Build in Town/roofHighFlat.fbx
+  artifactKey: Guid(43c3b9eaf29dab742983b608ec147a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/roofHighFlat.fbx using Guid(43c3b9eaf29dab742983b608ec147a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97bb0f85a8fb0d780d24abe719c8390d') in 0.0361518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Build in Town/roofHighCorner.fbx
+  artifactKey: Guid(58d68b7f0bc0bde4f8259137f4e0c80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/roofHighCorner.fbx using Guid(58d68b7f0bc0bde4f8259137f4e0c80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3114c5b234bc06e44eebf47e30ab2450') in 0.0445006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Build in Town/roofHigh.fbx
+  artifactKey: Guid(b8aa92f24f10f944faf1463833e41296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/roofHigh.fbx using Guid(b8aa92f24f10f944faf1463833e41296) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f72f62368c5751e7e2f8e2211a67d7b') in 0.0537164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Build in Town/roofHighCornerInner.fbx
+  artifactKey: Guid(3d452f7183a86ff47a8f2f0dd9aeba58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/roofHighCornerInner.fbx using Guid(3d452f7183a86ff47a8f2f0dd9aeba58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cab6d6c378e5ebf5f4c0975247e1b8a') in 0.0443147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.257689 seconds.
+  path: Assets/Models/Build in Town/roofHighGableTop.fbx
+  artifactKey: Guid(b079125b2402b4348b6b0d8dee1f2877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/roofHighGableTop.fbx using Guid(b079125b2402b4348b6b0d8dee1f2877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7448b4f4c90eaf4128efb447af826abb') in 0.0427809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Build in Town/roofHighRight.fbx
+  artifactKey: Guid(9641ebf3d8090cb489bb218c0a726020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/roofHighRight.fbx using Guid(9641ebf3d8090cb489bb218c0a726020) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4477a493ac20baed6a6157b2d53c4fdf') in 0.0579259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Build in Town/stairsStoneRound.fbx
+  artifactKey: Guid(f046d701acc0d7d4398c0f11b36d7a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/stairsStoneRound.fbx using Guid(f046d701acc0d7d4398c0f11b36d7a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '198815a5970417140697dbc86dd5fe31') in 0.0498292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Build in Town/stairsFullCornerInner.fbx
+  artifactKey: Guid(a6aa9a48f7e53cb4c9b17011a7945095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/stairsFullCornerInner.fbx using Guid(a6aa9a48f7e53cb4c9b17011a7945095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a3ebdf8f24515de8b0a565cd2fbaaf9') in 0.0389962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Models/Build in Town/stairsWideStone.fbx
+  artifactKey: Guid(7446e52a66873424d917ad3c137ab7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/stairsWideStone.fbx using Guid(7446e52a66873424d917ad3c137ab7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '209fded2ee4945ae4b2cd8a12f1152f4') in 0.040426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Models/Build in Town/stairsStoneHandrail.fbx
+  artifactKey: Guid(764ca0161376dd347a3d8b2eb9364808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/stairsStoneHandrail.fbx using Guid(764ca0161376dd347a3d8b2eb9364808) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33c03b65ac92a9476670516eca262758') in 0.0671853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Build in Town/stairsStoneCorner.fbx
+  artifactKey: Guid(406fa4c7665bf7146b09955333bf4479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/stairsStoneCorner.fbx using Guid(406fa4c7665bf7146b09955333bf4479) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3608e4628a600dea8820bf652588b67') in 0.038143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Build in Town/stairsFull.fbx
+  artifactKey: Guid(ae4bfc6b906ff944d936f0c1f7befb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/stairsFull.fbx using Guid(ae4bfc6b906ff944d936f0c1f7befb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84ba30e7b420bf3076db8c4856e51a1f') in 0.0319445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/Build in Town/roofRight.fbx
+  artifactKey: Guid(8a5e67d53d81ad24899248393f0e6bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/roofRight.fbx using Guid(8a5e67d53d81ad24899248393f0e6bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91c21f5d1635b26337f2fc85b0d457f4') in 0.0552116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Build in Town/roofPoint.fbx
+  artifactKey: Guid(5390e1fbf428c074aae7dcb6d2f8129b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/roofPoint.fbx using Guid(5390e1fbf428c074aae7dcb6d2f8129b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e3cc6b6266a7f4fff6b05678738ae38') in 0.0406353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036453 seconds.
+  path: Assets/Models/Build in Town/stairsWood.fbx
+  artifactKey: Guid(2dd8c51b0415f2c449a8b3ba4234d6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/stairsWood.fbx using Guid(2dd8c51b0415f2c449a8b3ba4234d6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac3be2d220a39e3a07920647c5a6f5b2') in 0.0317734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Build in Town/Stone.mat
+  artifactKey: Guid(2577933f7a053f240aaeab215a6dc2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/Stone.mat using Guid(2577933f7a053f240aaeab215a6dc2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a41878890c50d4ef15a6b8aada03c46') in 0.0302887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Build in Town/treeCrooked.fbx
+  artifactKey: Guid(5c51a0438f1e9b043a84c13a920b6b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/treeCrooked.fbx using Guid(5c51a0438f1e9b043a84c13a920b6b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0317e8e8e94d1bed59416e48ec7c2bd8') in 0.0403831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Build in Town/wallBlockHalf.fbx
+  artifactKey: Guid(13b298011a8bd35408f226a988c73507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallBlockHalf.fbx using Guid(13b298011a8bd35408f226a988c73507) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9418d4267f65703d842076c8a48560d2') in 0.0426776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Build in Town/treeHigh.fbx
+  artifactKey: Guid(2540af659d90ff644895862f6a4c472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/treeHigh.fbx using Guid(2540af659d90ff644895862f6a4c472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea84ffeef03c10bb525fdcbef6b24280') in 0.0534315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Build in Town/wall.fbx
+  artifactKey: Guid(0b23b9fb8841a314b816821aa4ee0fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wall.fbx using Guid(0b23b9fb8841a314b816821aa4ee0fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b5f08e5d0c53e766945773b889d680d') in 0.0326728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Build in Town/wallBlock.fbx
+  artifactKey: Guid(be6401ebea90a2c4fbe15533069a28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallBlock.fbx using Guid(be6401ebea90a2c4fbe15533069a28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b9b277c2eccc1f9698faab696d34af5') in 0.0439301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Build in Town/wallArchTop.fbx
+  artifactKey: Guid(119f0fccd5586c24ca094f5be3ea6fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallArchTop.fbx using Guid(119f0fccd5586c24ca094f5be3ea6fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a96b6bd76a8a3df67b96433be8bc38b') in 0.0408992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Build in Town/stallStool.fbx
+  artifactKey: Guid(86441fc5067667c45b281e9557e401b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/stallStool.fbx using Guid(86441fc5067667c45b281e9557e401b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '851e9559483ceb311774c3a01c0f702a') in 0.0278711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Build in Town/wallArch.fbx
+  artifactKey: Guid(ec323d168ddea6348bf04c5c26fef526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallArch.fbx using Guid(ec323d168ddea6348bf04c5c26fef526) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf5f0721b23f53c67d691037de3efa42') in 0.0374488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.307004 seconds.
+  path: Assets/Models/Build in Town/wallCorner.fbx
+  artifactKey: Guid(1efe6674469900748aea264e71b38c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallCorner.fbx using Guid(1efe6674469900748aea264e71b38c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8df67f61917594ded9f3fa1e6d0f3304') in 0.0351295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Build in Town/wallDetailHorizontal.fbx
+  artifactKey: Guid(49ccdafa56574fa41a4b02024c5152d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallDetailHorizontal.fbx using Guid(49ccdafa56574fa41a4b02024c5152d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b64781e75623dd948c795074049b5fb') in 0.0351238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Build in Town/wallDiagonal.fbx
+  artifactKey: Guid(a021592ba515a724d92c6732b2942099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallDiagonal.fbx using Guid(a021592ba515a724d92c6732b2942099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f6096731da200f726ed196ebdf201d0') in 0.0332987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Build in Town/wallCurved.fbx
+  artifactKey: Guid(a289c7f26eeddb64382886c9452f61c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallCurved.fbx using Guid(a289c7f26eeddb64382886c9452f61c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '798772591d9d2955bc25c7aa8c8e956e') in 0.0528873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.337028 seconds.
+  path: Assets/Models/Build in Town/wallDoor.fbx
+  artifactKey: Guid(7b36e48eaa1ec874a88bbde0e3dddb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallDoor.fbx using Guid(7b36e48eaa1ec874a88bbde0e3dddb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ff813cc8acc731c85a09df9e6ac371f') in 0.0755535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Build in Town/wallSide.fbx
+  artifactKey: Guid(d62a83bf035aeab4fb53aa5de52899c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallSide.fbx using Guid(d62a83bf035aeab4fb53aa5de52899c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c938a6bcadd88e676123e6686d0e206e') in 0.0414981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Build in Town/wallDoorwaySquareWide.fbx
+  artifactKey: Guid(730ae524fe1daeb45b8b6f102954f04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallDoorwaySquareWide.fbx using Guid(730ae524fe1daeb45b8b6f102954f04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0ac3619f8a2b51959b091ae4ddbdd11') in 0.0524919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.249348 seconds.
+  path: Assets/Models/Build in Town/wallWindowGlass.fbx
+  artifactKey: Guid(4d9efa66323ab4e4bbcf430513f6a308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallWindowGlass.fbx using Guid(4d9efa66323ab4e4bbcf430513f6a308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18cfc1cb52a95483753d22782c608d34') in 0.0542294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Build in Town/wallWood.fbx
+  artifactKey: Guid(181cc402afe38d44fa3b7062a386c71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallWood.fbx using Guid(181cc402afe38d44fa3b7062a386c71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49997e985f4bd24e09419f5fcf049ade') in 0.040345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/Build in Town/wallWindowStone.fbx
+  artifactKey: Guid(e61d389d5b67c424c8fd1d17357e13f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallWindowStone.fbx using Guid(e61d389d5b67c424c8fd1d17357e13f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f776d8e15326daa8f4288ba6a937335c') in 0.0717051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.363360 seconds.
+  path: Assets/Models/Build in Town/wallWoodBlockHalf.fbx
+  artifactKey: Guid(c373fc5b9058515449bde175f23ff0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallWoodBlockHalf.fbx using Guid(c373fc5b9058515449bde175f23ff0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eacc0856ae70e462c13afe19a1593404') in 0.0599605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/Build in Town/wallWoodDetailHorizontal.fbx
+  artifactKey: Guid(0e4bad9c98782b447b5edc8f0deec162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallWoodDetailHorizontal.fbx using Guid(0e4bad9c98782b447b5edc8f0deec162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54d7b274f505fd27811ceaf624bd22bf') in 0.0490537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Build in Town/wallWoodCurved.fbx
+  artifactKey: Guid(841e28f85d5e0d642abcb473a218986e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallWoodCurved.fbx using Guid(841e28f85d5e0d642abcb473a218986e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0894291f2c419b4871aa29d2ae65f366') in 0.0675236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.448273 seconds.
+  path: Assets/Models/Build in Town/wallWoodDiagonal.fbx
+  artifactKey: Guid(714627bdcb4d69c44a45a522e2b26c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallWoodDiagonal.fbx using Guid(714627bdcb4d69c44a45a522e2b26c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5216ac370f185ac5daf49b0b57bbc52') in 0.0527731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Build in Town/wallWoodDoorwaySquareWide.fbx
+  artifactKey: Guid(5a6925df4c2682a4ba220867727cf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallWoodDoorwaySquareWide.fbx using Guid(5a6925df4c2682a4ba220867727cf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e20288e7dd7d9d9636b8cc7ca211fd6a') in 0.0560492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Build in Town/wallWoodHalf.fbx
+  artifactKey: Guid(18671c46008da064c997f8a903b5c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallWoodHalf.fbx using Guid(18671c46008da064c997f8a903b5c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02033092d50cd71ca464eecd7d3ce5e8') in 0.043571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Build in Town/wallWoodDoorwayRound.fbx
+  artifactKey: Guid(11f7e709038395848b2b0bce3e93618a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wallWoodDoorwayRound.fbx using Guid(11f7e709038395848b2b0bce3e93618a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee96ca1bd52394903c84a0efa57c8745') in 0.0663974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Models/Build in Town/wheel.fbx
+  artifactKey: Guid(5ab98cf07069afb4db5f30bd57c0953a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/wheel.fbx using Guid(5ab98cf07069afb4db5f30bd57c0953a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6931cd69044e8945f0c3408c67b848ae') in 0.0450073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Build in Town/watermillWide.fbx
+  artifactKey: Guid(a566344851a9e7e448891e765909c154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/watermillWide.fbx using Guid(a566344851a9e7e448891e765909c154) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad5d02bde8b7aa0f9563558da840cf30') in 0.1337847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Build in Town/windmill.fbx
+  artifactKey: Guid(37ad8bf56518f5648b1bf8aab1198740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Build in Town/windmill.fbx using Guid(37ad8bf56518f5648b1bf8aab1198740) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0613c1454251e7065044684491f9d5d7') in 0.0418648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
